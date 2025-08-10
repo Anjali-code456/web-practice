@@ -1,0 +1,110 @@
+*{
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    height: 90px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    justify-content: center;
+    gap: 20px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 197px;
+    /* font-weight: ; */
+
+
+}
+.logo span{
+    font-size: 90px;
+    color: chocolate;
+    display: flex;
+    align-items: center;
+
+    /* background-color: chocolate; */
+}
+.logo{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    /* margin-left: -79%; */
+
+}
+.btn{
+    display:flex ;
+    gap: 65px;
+    margin-left: 5px;  
+    color:chocolate;
+    
+}
+.btn a{
+        color:black;
+}
+
+.btn a:hover{
+    color: chocolate;
+    transition: .5s fade ease-out;
+
+    
+}
+.sign{
+    border: 2px solid chocolate;
+    padding: 3px 5px;
+    background-color: chocolate;
+}
+.sign:hover{
+    color:white;
+    transition: .5s fade ease-out;
+}
+.img{
+    height: 90dvh;
+    width: 99.6%;
+    border: 2px solid black;
+    margin: 2px 2px 2px  2px;
+    position: absolute;
+
+}
+.img_container{
+    /* position: absolute; */
+    display: flex;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.learn{
+    border: 2px solid chocolate;
+    margin-top: 34%;
+
+}
+.img h1,h4{
+    color:rgb(15, 15, 70);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: -65%;
+}
+.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url(/img/home.webp);
+    background-repeat: no repeat;
+    /* background-position: center; */
+    
+}
+
